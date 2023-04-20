@@ -14,13 +14,27 @@ def closeGaps(folder, prefix):
     files = list(folder.glob(f'{prefix}*'))
     workingFolder = os.path.abspath(folder)
     fileNamesOld = []
-    fielNamesNew = []
+    fileNamesNew = []
 
     for file in files:
         fileNamesOld.append(file.name)
-    match = reg.findall(' '.join(fileNamesOld))
-    print(match)
-    print(fileNamesOld)
+    
+    matches = reg.findall(' '.join(fileNamesOld))
+
+    for i, match in enumerate(matches):
+        count = i + 1
+        padding = len(match)
+        newOrder = str(count).rjust(padding, '0')
+        fileNamesNew.append(reg.sub(newOrder, fileNamesOld[i]))
+
+    for i in range(len(fileNamesNew)):
+        if fileNamesNew[i] != fileNamesOld[i]:
+            print(f'Renaming {fileNamesOld[i]} to {fileNamesNew[i]}')
+            o = Path(workingFolder) / fileNamesOld[i]
+            n = Path(workingFolder) / fileNamesNew[i]
+            shutil.move(o, n) # uncomment after testing
+
+        
 
 
 parser = argparse.ArgumentParser(description="""Program to scan a folder and remove the gaps between filenames""")
