@@ -1,0 +1,27 @@
+1682960676976	geckodriver	INFO	Listening on 127.0.0.1:53935
+1682960680044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alexc\\AppData\\Local\\Temp\\rust_mozprofileNoZPJt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682960680337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682960680342	Marionette	INFO	Listening on port 53945
+Read port: 53945
+WebDriver BiDi listening on ws://127.0.0.1:53936
+1682960680442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alexc\\AppData\\Local\\Temp\\rust_mozprofileNoZPJt\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53936/devtools/browser/32775a14-4fa7-4efa-a0e2-ee2f96be970b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/SignUp?biz=false&cc=US&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S1006954815%3A1682960682978664&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=Af_xneGs02S78IoeUazD-zfBTZ6ANcjpSscu5qGUnaQGX22ZQ_OwF_518hDXGgSF7B-wDF7oiqIdOw&osid=1&service=mail line 2 > eval line 6561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://www.google.com/js/bg/sDk8HNS7Z0RFr_a1HEq16xb31lXHXE3gw1Jn0fPfAo8.js line 2 > eval line 3105 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mail.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/confirmidentifier?dsh=S1275635010%3A1682960822424910&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&ifkv=Af_xneE2IPwsCLNmdBbHsN1vL1fOh1tuwNCEXyVm4Kv37dLPPIL0NRFFVUVjXqyi_Cm4e4O5zN7jWw&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 363 > injectedScript line 2 > eval line 6099 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/confirmidentifier?dsh=S1275635010%3A1682960822424910&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&ifkv=Af_xneE2IPwsCLNmdBbHsN1vL1fOh1tuwNCEXyVm4Kv37dLPPIL0NRFFVUVjXqyi_Cm4e4O5zN7jWw&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 363 > injectedScript line 2 > eval line 1091 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1682961323555	Marionette	INFO	Stopped listening on port 53945
+Dynamically enable window occlusion 1
